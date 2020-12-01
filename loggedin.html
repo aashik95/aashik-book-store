@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="page_style.css" rel="stylesheet" type="text/css" media="all" />
+
+    <title>Successfully Loggedin !</title>
+    <script src="https://kit.fontawesome.com/429fc6d047.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid ">
+        <div class="form-container " >
+          
+          <form>
+      
+            <h3 class="text-center text-justify mb-5">You are logged in !<i class="fa fa-thumbs-up fa-lg ml-2" aria-hidden="true"></i></h3>
+            
+       
+            
+        
+      
+            <button id="addbook_bttn" type="button" class="btn btn-dark  w-25 pt-5 pb-5 font-weight-bold">Add New Books</button>
+            <button id="adduser_bttn" type="button" class="btn btn-dark  mt-3 w-25 pt-5 pb-5 font-weight-bold">Add New User</button>
+            <div class="btn-group mt-3 w-25" role="group" aria-label="Basic example">
+              <button  id="back_bttn" type="button" class="btn btn-danger mr-1 w-50">Back</button>
+              <button id="logout_bttn" type="button" class="btn btn-danger ml-1 w-50">Logout</button>
+            </div>
+           
+          </form>
+        </div>
+        
+      </div>
+      
+      
+      
+        <script>
+      
+          document.getElementById('addbook_bttn').onclick = function () {
+            window.location.replace("add_new_books.html");
+          }
+      
+      
+          document.getElementById('adduser_bttn').onclick = function () {
+            window.location.replace("add_new_users.html");
+          }
+
+          document.getElementById('back_bttn').onclick = function () {
+            window.location.replace("login.html");
+          }
+      
+          document.getElementById('logout_bttn').onclick = function () {
+            window.location.replace("index.html");
+          }
+      
+        </script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,188 @@
+html, body{
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    background:#ffffff;
+    margin: 0;
+}
+
+
+
+
+
+
+.headertop{
+    padding: 10px 0 0 0 ;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(49, 47, 47);
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    
+
+
+}
+.headertop h1{
+    font-family: 'Concert One', cursive;
+}
+.headertop h1,p{
+    padding: 0 25px;    
+    align-items: center;
+    display: inline-block;
+    
+}
+.headertop p{
+    display: inline-block;
+}
+
+
+.navbar{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    height: 100%;
+    padding: 0 75px;
+    color: white;
+
+    
+}
+
+.nav-items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left: 50px;  
+}
+.nav-item-login{
+    display: inline-block;
+    margin-right: 50px;
+    align-items: center;
+    
+    
+}
+
+
+
+
+/*------------------------------------------Headertop End------------------------------------------------*/
+
+.header
+{
+    height: 50px;
+    background-color: rgb(57, 54, 61);
+}
+
+/*------------------------------------------Landind SLides Start-------------------------------------------*/
+.slider-container{
+ width: 100%;
+ height: 100%;
+}
+
+
+/*------------------------------------------Landind SLides End-------------------------------------------*/
+.books
+{
+    height: 100%;
+    background-color:rgb(163, 160, 160);
+}
+
+.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.contact_info
+{
+    height: 100%;
+    background-color: rgb(99, 99, 96);
+}
+
+.contact_info img {
+    
+    width: 250px;
+    border-radius: 50%; 
+}
+
+.contact_info .col-lg-2 {
+    
+  padding-top: 70px; 
+}
+
+/*---------------------------------------------Footer Start----------------------------------------*/
+.footer1
+{
+    height: 100px;
+}
+.footer {
+    background: #19232e;
+    color: white;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #264d7c;
+  }
+  .footer .about-company i {
+    font-size: 25px;
+  }
+  .footer .about-company a {
+    color: white;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+  .footer .about-company a:hover {
+    color: #264d7c;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  .footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .row .col-lg-5  p{
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .row .col-lg-3 p{
+    margin: 0;
+    padding: 15px 0;
+  }
+
+
+  .row .col-lg-3 li{
+    margin: 0;
+    padding:5px 0;
+  }
+  .row .col-lg-3 li a{
+    margin: 0;
+    padding:0 10px;
+  }
+
+  .row .col-lg-4 p{
+    margin: 0;
+    padding: 5px 0;
+  }
+  /*---------------------------------------------Footer End----------------------------------------*/
+  
